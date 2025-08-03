@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreeSoul Radio Player</title>
+  <link rel="stylesheet" href="deepseek.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FreeSoul Radio Player</h1>
+    <div id="nowPlaying">Aucune musique en lecture</div>
+    <audio id="audioPlayer" controls></audio>
+    <div class="controls">
+      <button id="playBtn">▶️</button>
+      <button id="pauseBtn">⏸️</button>
+      <button id="stopBtn">⏹️</button>
+      <button id="prevBtn">⏪</button>
+      <button id="nextBtn">⏩</button>
+    </div>
+    <div>
+      <input type="file" id="fileInput" accept="audio/*" />
+      <ul id="playlist"></ul>
+    </div>
+    <div>
+      <input type="text" id="radioInput" placeholder="Ajouter une radio URL" />
+      <button id="addRadioBtn">Ajouter</button>
+      <ul id="radioList"></ul>
+    </div>
+    <div>
+      <ul id="favoritesList"></ul>
+    </div>
+    <div>
+      <button id="searchYoutubeBtn">🔍 Chercher YouTube</button>
+    </div>
+    <div>
+      <progress id="progressBar" value="0" max="100"></progress>
+      <div id="timeDisplay">0:00</div>
+      <input type="range" id="volumeBar" value="100" min="0" max="100" />
+    </div>
+  </div>
+  <script src="deepseek.js"></script>
+</body>
+</html>

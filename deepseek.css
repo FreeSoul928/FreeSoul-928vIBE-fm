@@ -1,0 +1,45 @@
+/* deepseek.css */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1d1f27;
+  color: #e0e0e0;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+#nowPlaying {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  max-height: 100px;
+  overflow-y: auto;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+li {
+  padding: 6px;
+  cursor: pointer;
+}
+li:hover {
+  background: rgba(138,43,226,0.2);
+}
+input[type="text"], input[type="file"], button {
+  margin: 5px 0;
+}
+progress, input[type="range"] {
+  width: 100%;
+  margin: 5px 0;
+}
