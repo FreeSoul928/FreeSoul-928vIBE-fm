@@ -1,2 +1,2 @@
-# FreeSoul-928vIBE-fm
+# FreeSoul-928Vibe-fm
 Pur Local Organic &amp; Music
